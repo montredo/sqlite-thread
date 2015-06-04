@@ -7,6 +7,8 @@ namespace Ui {
 class MainWidget;
 }
 
+class DatabaseThread;
+
 class MainWidget : public QWidget
 {
     Q_OBJECT
@@ -16,6 +18,7 @@ public:
 
 private:
     Ui::MainWidget *ui;
+    DatabaseThread *databaseThread;
 };
 
 #endif // MAINWIDGET_HPP
