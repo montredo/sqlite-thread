@@ -6,6 +6,7 @@ TEMPLATE = app
 SOURCES += main.cpp \
     MainWidget.cpp
 
-HEADERS += MainWidget.hpp
+HEADERS += main.hpp \
+    MainWidget.hpp
 
 FORMS += MainWidget.ui
