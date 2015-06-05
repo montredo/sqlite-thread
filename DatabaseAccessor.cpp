@@ -5,6 +5,8 @@
 #include <QSqlQuery>
 #include <QSqlError>
 
+#include <QStringList>
+
 #ifdef QT_DEBUG
 #include <QDebug>
 #endif
